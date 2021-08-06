@@ -16,10 +16,31 @@ Make sure to run the file with node in your command line.
   // You do not need any proerties at this time!!
 
 // Prompt 1: Dog
+class Dog {
+
+};
+var desilu = new Dog();
+var finnegan = new Dog();
+console.log(desilu);
+console.log(finnegan);
 
 // Prompt 2: Snack
+class Snack {
+
+};
+var nachos = new Snack();
+var cookies = new Snack();
+console.log(nachos);
+console.log(cookies);
 
 // Prompt 3: Shirt
+class Shirt {
+
+};
+var flannel = new Shirt();
+var polo = new Shirt();
+console.log(flannel);
+console.log(polo);
 
 //-------------------
 // Part 2: Properties
@@ -33,10 +54,37 @@ Make sure to run the file with node in your command line.
   // Log that variable to the console.
 
 // Prompt 1: Dog
+class Dog {
+  constructor() {
+    this.size = "small";
+    this.breed = "pomchi";
+    this.age = 6;
+  }
+}
+var desilu = new Dog();
+console.log(desilu);
 
 // Prompt 2: Snack
+class Snack {
+  constructor() {
+    this.flavor = "salty";
+    this.isHealthy = false;
+    this.temp = "hot";
+  }
+}
+var nachos = new Snack();
+console.log(nachos);
 
 // Prompt 3: Shirt
+class Shirt {
+  constructor() {
+    this.isSoft = true;
+    this.color = "blue";
+    this.pattern = "stripes";
+  }
+}
+var flannel = new Shirt();
+console.log(flannel);
 
 //-------------------
 // Part 3: Dynamic Properties
@@ -51,7 +99,43 @@ Make sure to run the file with node in your command line.
   // Log those variables to the console.
 
 // Prompt 1: Dog
+class Dog {
+  constructor(size, breed, age) {
+    this.size = size;
+    this.breed = breed;
+    this.age = age;
+  }
+}
+var desilu = new Dog("small", "pomchi", 6);
+var finnegan = new Dog("large", "golden retriever", 9);
+
+console.log(desilu);
+console.log(finnegan);
 
 // Prompt 2: Snack
+class Snack {
+  constructor(flavor, isHealthy, temp) {
+    this.flavor = flavor;
+    this.isHealthy = isHealthy;
+    this.temp = temp;
+  }
+}
+var nachos = new Snack("cheesy", false, "hot");
+var cookies = new Snack("sweet", false, "warm");
+
+console.log(nachos);
+console.log(cookies);
 
 // Prompt 3: Shirt
+class Shirt {
+  constructor(isSoft, color, pattern) {
+    this.isSoft = isSoft;
+    this.color = color;
+    this.pattern = pattern;
+  }
+}
+var flannel = new Shirt(true, "blue", "stripes");
+var polo = new Shirt(false, "red", "none");
+
+console.log(flannel);
+console.log(polo);
