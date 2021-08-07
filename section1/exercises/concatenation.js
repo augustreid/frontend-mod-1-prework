@@ -57,4 +57,3 @@ console.log("At dinnertime, " + dogName + " stole all " + numberOfTreats + " of 
 
 // Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
-  Yep! 

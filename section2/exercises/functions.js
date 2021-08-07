@@ -59,10 +59,10 @@ logSum(3,3);
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
-function goodBoys(pet1, pet2) {
+function praisePets(pet1, pet2) {
   console.log(pet1 + " and " + pet2 + " are certified good boys.");
 };
-goodBoys("Percy", "Rufus");
+praisePets("Percy", "Rufus");
 
 
 //-------------------
@@ -77,8 +77,8 @@ Look at the code you wrote for the previous YOU DO🎈 - what did you name the f
 What did you name each parameter, and why?
 
 EXPLAIN:
-// I named the function goodBoys as it returns a string declaring they are good boys.
-// I named the parameters pet1 and pet2 so it is clear they are intended to be pets but not restricted by species. 
+// I named the function praisePets as it returns a string declaring they are good boys.
+// I named the parameters pet1 and pet2 so it is clear they are intended to be pets but not restricted by species.
 
 
 */

@@ -115,7 +115,7 @@ var chargerType = "car";
 if (percentBatteryLeft >= 15) {
   console.log("You can call an uber!");
   // If value of hasCharger is true AND the value of chargerType is "car", log message they can call uber.
-} else if (hasCharger == true && chargerType == "car") {
+} else if (hasCharger === true && chargerType === "car") {
   console.log("You can call an uber!");
   // Otherwise, log message that user is stuck here.
 } else {
