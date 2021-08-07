@@ -141,4 +141,4 @@ var randall = new Superhero ("Rubbery Randall", "Bouncy", 43);
 
 // What skills do you need to continue to practice before starting Mod 1?
 // I want to practice actually nesting things, because that has defninitely been the scariest part.
-// Objects within objects, conditionals inside functions etc. 
+// Objects within objects, conditionals inside functions etc.

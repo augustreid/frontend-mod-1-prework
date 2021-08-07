@@ -51,5 +51,5 @@ function fizzBuzz(num1, num2, range) {
 }
 // Pass arguments (3, 5, 100) into fizzBuzz.
 fizzBuzz(3, 5, 100);
-// Pass arguments (5, 8, 400) into fizzBuzz. 
+// Pass arguments (5, 8, 400) into fizzBuzz.
 fizzbuzz(5, 8, 400);
